@@ -2,6 +2,7 @@ module.exports = {
     name: 'kick',
     description: 'Kick a user',
     guildOnly: true,
+    permissions: 'KICK_MEMBERS',
     execute(message, args) {
         if (!message.mentions.users.size) {
             return message.reply(
