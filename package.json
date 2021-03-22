@@ -1,0 +1,16 @@
+{
+    "name": "discordjs_guide",
+    "version": "1.0.0",
+    "description": "Following along with Discord.js's guide online.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Colin Cross",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "dotenv": "^8.2.0"
+    }
+}
